@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Students",
+    "icon": "las la-graduation-cap",
+    "childrens": [
+      {
+        "title": "Admission",
+        "route": "admission",
+        "path": "/"
+      },
+      {
+        "title": "View Students",
+        "route": "viewstudent",
+        "path": "/about"
+      },
+      {
+        "title": "Others",
+        "route": "stdothers",
+        "path": "/others"
+      }
+    ]
+  },
+  {
+    "title": "Fees",
+    "icon": "las la-dollar-sign",
+    "childrens": [
+      {
+        "title": "Installments",
+        "route": "installment",
+        "path": "/login"
+      },
+      {
+        "title": "View Installment",
+        "route": "viewinstallment",
+        "path": "/register"
+      },
+      {
+        "title": "Others",
+        "route": "feesothers",
+        "path": "/forgot-password"
+      }
+    ]
+  },
+  {
+    "title": "Inquiry",
+    "route": "inquiry",
+    "icon": "las la-question",
+    "path": "/inquiry"
+  },
+  {
+    "title": "Followup",
+    "route": "followup",
+    "icon": "las la-phone"
+  },
+  {
+    "title": "Expense",
+    "icon": "lar la-credit-card",
+    "childrens": [
+      {
+        "title": "Expense Entry",
+        "route": "expenseentry"
+      },
+      {
+        "title": "View Expense",
+        "route": "viewexpense"
+      }
+    ]
+  },
+  {
+    "title": "Bank Deposit",
+    "icon": "las la-cash-register",
+    "route": "bankdeposit",
+    "path": "/bank"
+  },
+  {
+    "title": "Others",
+    "icon": "las la-ellipsis-h",
+    "childrens": [
+      {
+        "title": "Printing"
+      },
+      {
+        "title": "Assign"
+      },
+      {
+        "title": "View Income"
+      },
+      {
+        "title": "Batch"
+      }
+    ]
+  },
+  {
+    "title": "Settings",
+    "icon": "bx bx-cog",
+    "path": "/bank"
+  }
+]

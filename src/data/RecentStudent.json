@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Ashik",
+    "course": "DITA",
+    "image": "./img/2.jpg"
+  },
+  {
+    "name": "Messi",
+    "course": "CFAS",
+    "image": "./img/messi.jpg"
+  },
+  {
+    "name": "Neymar",
+    "course": "CFAS",
+    "image": "./img/neymar.jpg"
+  },
+  {
+    "name": "Ronaldo",
+    "course": "CFAS",
+    "image": "./img/ronaldo.jpg"
+  },
+  {
+    "name": "Suarez",
+    "course": "CFAS",
+    "image": "./img/suarez.jpg"
+  }
+]

@@ -1,0 +1,143 @@
+.container-main{
+    max-width: 98%;
+    width: 100%;
+    padding-left: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    overflow: auto;
+    height:46%;
+    margin-left: auto;
+    transition: 0.5s;
+  }
+
+  .admission-date{
+    display: flex;
+    width: 300px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .admission-date label{
+    font-size: 15px;
+    font-weight: 500;
+    color: #1d1b31;
+  }
+  .upper{
+    display: flex;
+    justify-content: space-between;
+  }
+  .upper-child{
+    display: flex;
+    flex-direction: column;
+  }
+  .upper-child input{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+    width: 100px;
+  }
+  .admission-date input, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+  }
+
+  
+  .container-main .title{
+    display: block;
+    font-size: 19px;
+    font-weight: 520;
+    margin: 6px 0;
+    color:cornsilk;
+  }
+  .container-main .fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+.fields .input-field{
+    display: flex;
+    width: calc(100% / 3 - 20px);
+    flex-direction: column;
+    margin: 6px 0;
+  }
+  .input-field label{
+    font-size: 14px;
+    font-weight: 500;
+    color:aliceblue;
+  }
+  .input-field input, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+  }
+  .input-field input :focus,
+  .input-field select:focus{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+  }
+  .input-field select,
+  .input-field input[type="date"]{
+    color: #707070;
+  }
+  .input-field input[type="date"]:valid{
+    color: #333;
+  }
+  .buttons{
+    display: flex;
+    align-items: center;
+  }
+  .buttons button{
+    margin: 25px 10px;
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: 7px;
+    background-color: aliceblue;
+    transition: 0.5s;
+  }
+  .buttons button:hover{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+  }
+  /* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .doc-checkboxes{
+    width: 100%;
+    margin-top: -20px;
+  }

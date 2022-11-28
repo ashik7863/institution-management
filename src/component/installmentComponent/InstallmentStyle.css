@@ -1,0 +1,155 @@
+.inst-head{
+    margin-top: 10px;
+    padding: 2rem 1.5rem;
+    background: #f1f5f9;
+    min-height: calc(100vh - 78px);
+  }
+  .inst-content{
+    position: relative;
+    max-width: 98%;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+    height: 100%;
+  }
+  .sec-title{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .sec-serach{
+    width: 50%;
+  }
+  .sec-serach input {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 30px;
+    margin: 0px 0;
+    width:30%;
+    margin-left: 10px;
+}
+  .sec-serach button{
+    margin: 25px 10px;
+  font-size: 20px;
+  height: 36px;
+  width: 90px;
+  border-radius: 7px;
+  background-color: aliceblue;
+  transition: 0.5s;
+  }
+  .sec-serach button:hover{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+  }
+.inst-title{
+    position: relative;
+    font-size: 23px;
+    font-weight: 600;
+    color: #333;
+    display: inline;
+    width: calc(100%/2);
+  }
+  .upper{
+    margin-top: 10px;
+    border-bottom: solid 1px rgba(32, 29, 29, 0.2);
+  }
+  .inst-head .values{
+    color: #A9A9A9;
+  }
+  .upper-mid{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: solid 1px rgba(32, 29, 29, 0.2);
+  }
+.mid-lower{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-bottom: solid 1px rgba(32, 29, 29, 0.2);
+}
+.mid-lower div{
+    width: calc(100% / 2 - 20px);
+    padding: 0px 0px 10px;
+}
+.lower{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.lower div{
+    width: calc(100% / 3);
+    margin-right: 10px;
+}
+.installment{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 10%);
+}
+.installment div{
+    display: flex;
+    flex-direction: row;
+    width: calc(100% / 2);  
+}
+.installment div input{
+    margin-left: 5px;
+}
+.paid-detatils{
+    display: flex;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 10%);
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.paid-detatils div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.paid-detatils input {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 30px;
+    margin: 0px 0;
+    width: 60%;
+    margin-left: 10px;
+}
+.pay input{
+  width: 60%;
+}
+.btn-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.btn-section button{
+  margin: 25px 10px;
+  font-size: 20px;
+  height: 40px;
+  width: 100px;
+  border-radius: 7px;
+  background-color: aliceblue;
+  transition: 0.5s;
+}
+
+.btn-section button:hover{
+  background-color: black;
+  color: aliceblue;
+  cursor: pointer;
+}
