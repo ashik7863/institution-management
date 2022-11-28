@@ -4,6 +4,11 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 const Login = ({ show, change }) => {
+  useEffect(() => {
+    if (show === true) {
+      change(false);
+    }
+  }, []);
   const navigate = useNavigate();
   const [val, setVal] = useState({
     user: "",
