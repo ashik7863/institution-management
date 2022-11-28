@@ -9,7 +9,9 @@ const ViewStudent = () => {
   const [data, setData] = useState([]);
   const [date, setDate] = useState();
   useEffect(() => {
-    fetch("http://localhost:4000/viewstudent").then((result) => {
+    fetch(
+      "https://institution-management-system.herokuapp.com/viewstudent"
+    ).then((result) => {
       result.json().then((resp) => {
         setData(resp);
         setIsLoading(false);

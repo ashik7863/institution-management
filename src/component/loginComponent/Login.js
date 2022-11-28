@@ -23,10 +23,13 @@ const Login = ({ show, change }) => {
     e.preventDefault();
     if (validateForm()) {
       const { user, password } = val;
-      const { data } = await axios.post("http://localhost:4000/login", {
-        user,
-        password,
-      });
+      const { data } = await axios.post(
+        "https://institution-management-system.herokuapp.com/login",
+        {
+          user,
+          password,
+        }
+      );
       if (data.status === false) {
         toast.error(data.msg, toastOption);
       }

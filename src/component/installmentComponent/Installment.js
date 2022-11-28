@@ -24,7 +24,9 @@ const Installment = () => {
     "Dec",
   ];
   useEffect(() => {
-    fetch("http://localhost:4000/installment").then((result) => {
+    fetch(
+      "https://institution-management-system.herokuapp.com/installment"
+    ).then((result) => {
       result.json().then((resp) => {
         setData(resp);
         // setIsLoading(false);

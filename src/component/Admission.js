@@ -108,30 +108,33 @@ const Admission = () => {
         stdwhatsapp,
         email,
       } = val;
-      const { data } = await axios.post("http://localhost:4000/admission", {
-        admdate,
-        formno,
-        course,
-        session,
-        batch,
-        studentname,
-        fathername,
-        village,
-        postoffice,
-        policestation,
-        block,
-        panchayet,
-        district,
-        pin,
-        caste,
-        dob,
-        gender,
-        stdcontact,
-        guardcontact,
-        stdaadhaar,
-        stdwhatsapp,
-        email,
-      });
+      const { data } = await axios.post(
+        "https://institution-management-system.herokuapp.com/admission",
+        {
+          admdate,
+          formno,
+          course,
+          session,
+          batch,
+          studentname,
+          fathername,
+          village,
+          postoffice,
+          policestation,
+          block,
+          panchayet,
+          district,
+          pin,
+          caste,
+          dob,
+          gender,
+          stdcontact,
+          guardcontact,
+          stdaadhaar,
+          stdwhatsapp,
+          email,
+        }
+      );
       if (data.status === false) {
         toast.error(data.msg, toastOption);
       }
