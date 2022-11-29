@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import UpdateSec1 from "./UpdateSec1";
-import loader from "../../assets/loader.gif";
+import loader from "../../assets/loaderLogin.gif";
 const ViewStudent = () => {
   const [updateDiv, setUpdateDiv] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
@@ -34,7 +34,7 @@ const ViewStudent = () => {
     <>
       {isLoading ? (
         <>
-          <img src={loader} alt="loader" className="loader" />
+          <img src={loader} alt="loader" className="loaderView" />
         </>
       ) : (
         <div className="view-students">

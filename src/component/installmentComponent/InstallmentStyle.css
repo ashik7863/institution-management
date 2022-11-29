@@ -153,3 +153,7 @@
   color: aliceblue;
   cursor: pointer;
 }
+.loaderView{
+  width: 300px;
+  margin-left: calc(100%/3.1);
+}

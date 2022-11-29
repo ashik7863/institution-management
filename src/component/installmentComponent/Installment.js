@@ -133,6 +133,9 @@ const Installment = () => {
   function changeData(e) {
     setVal({ ...val, [e.target.name]: e.target.value });
   }
+  function handlePrint() {
+    data.print();
+  }
   return (
     <div className="inst-head">
       <div className="inst-content">
@@ -248,6 +251,9 @@ const Installment = () => {
               />
             </div>
           </div>
+
+          <button onClick={handlePrint}>Print this out!</button>
+
           <div className="btn-section">
             <button onClick={(e) => PostData(e)}>Save</button>
             <button>Reset</button>

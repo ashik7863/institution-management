@@ -3,12 +3,15 @@ import { Link, useNavigate, Routes, Route } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
+import loader from "../../assets/loaderLogin.gif";
 const Login = ({ show, change }) => {
+  const [isLoading, setIsLoading] = useState(false);
   useEffect(() => {
     if (show === true) {
       change(false);
     }
   }, []);
+
   const navigate = useNavigate();
   const [val, setVal] = useState({
     user: "",
@@ -25,6 +28,7 @@ const Login = ({ show, change }) => {
     setVal({ ...val, [e.target.name]: e.target.value });
   }
   async function saveData(e) {
+    setIsLoading(true);
     e.preventDefault();
     if (validateForm()) {
       const { user, password } = val;
@@ -39,6 +43,7 @@ const Login = ({ show, change }) => {
         toast.error(data.msg, toastOption);
       }
       if (data.status === true) {
+        setIsLoading(false);
         localStorage.setItem("logged-user", JSON.stringify(user));
         change(!show);
         navigate("/dashboard");
@@ -57,34 +62,40 @@ const Login = ({ show, change }) => {
     return true;
   }
   return (
-    <div>
-      <div className="form-container">
-        <form method="POST">
-          <div className="brand">
-            <h1>Login</h1>
-          </div>
-          <input
-            type="text"
-            placeholder="Enter Username"
-            name="user"
-            onChange={(e) => changeData(e)}
-            min="3"
-          />
-          <input
-            type="text"
-            placeholder="Password"
-            name="password"
-            onChange={(e) => changeData(e)}
-          />
+    <>
+      {isLoading ? (
+        <>
+          <img src={loader} alt="loader" className="loader" />
+        </>
+      ) : (
+        <div className="form-container">
+          <form method="POST">
+            <div className="brand">
+              <h1>Login</h1>
+            </div>
+            <input
+              type="text"
+              placeholder="Enter Username"
+              name="user"
+              onChange={(e) => changeData(e)}
+              min="3"
+            />
+            <input
+              type="text"
+              placeholder="Password"
+              name="password"
+              onChange={(e) => changeData(e)}
+            />
 
-          <button onClick={(e) => saveData(e)}>Login</button>
-          <span>
-            Don't have an account ? <Link to="/register">Register</Link>
-          </span>
-        </form>
-        <ToastContainer />
-      </div>
-    </div>
+            <button onClick={(e) => saveData(e)}>Login</button>
+            <span>
+              Don't have an account ? <Link to="/register">Register</Link>
+            </span>
+          </form>
+          <ToastContainer />
+        </div>
+      )}
+    </>
   );
 };
 
