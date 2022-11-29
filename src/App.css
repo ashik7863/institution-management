@@ -905,6 +905,10 @@ section{
   }
 
 }
+.loader{
+  margin-left: calc(100%/2.5);
+  width: 300px;
+}
 /* @media screen and (max-width: 1350px) {
   .checkbox{
     border: 1px solid red;
