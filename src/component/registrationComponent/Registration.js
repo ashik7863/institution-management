@@ -57,7 +57,7 @@ const Registration = () => {
     e.preventDefault();
     if (validateForm()) {
       const { user, email, mobile, designation, password, cpassword } = val;
-      const { data } = await axios.post("http://localhost:4000/register", {
+      const { data } = await axios.post("https://institution-management-system.herokuapp.com/register", {
         user,
         email,
         mobile,
