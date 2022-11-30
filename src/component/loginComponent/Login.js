@@ -29,9 +29,9 @@ const Login = ({ show, change }) => {
   }
   async function saveData(e) {
     e.preventDefault();
-    setIsLoading(true);
     if (validateForm()) {
       const { user, password } = val;
+      setIsLoading(true);
       const { data } = await axios.post(
         "https://institution-management-system.herokuapp.com/login",
         {
@@ -42,6 +42,8 @@ const Login = ({ show, change }) => {
       if (data.status === false) {
         setIsLoading(false);
         toast.error(data.msg, toastOption);
+        setVal({ ["user"]: "" });
+        setVal({ ["password"]: "" });
       }
       if (data.status === true) {
         setIsLoading(false);
