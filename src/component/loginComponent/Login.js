@@ -40,6 +40,7 @@ const Login = ({ show, change }) => {
         }
       );
       if (data.status === false) {
+        setIsLoading(false);
         toast.error(data.msg, toastOption);
       }
       if (data.status === true) {
