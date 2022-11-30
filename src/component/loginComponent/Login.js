@@ -28,8 +28,8 @@ const Login = ({ show, change }) => {
     setVal({ ...val, [e.target.name]: e.target.value });
   }
   async function saveData(e) {
-    setIsLoading(true);
     e.preventDefault();
+    setIsLoading(true);
     if (validateForm()) {
       const { user, password } = val;
       const { data } = await axios.post(
