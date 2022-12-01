@@ -4,7 +4,9 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Link } from "react-router-dom";
 import "./InstallmentStyle.css";
+import loader from "../../assets/loaderLogin.gif";
 const Installment = () => {
+  const [isLoading, setIsLoading] = useState(false);
   const [data, setData] = useState([]);
   const [formno, setFormNo] = useState("");
   const [finalData, setFinalData] = useState([]);
@@ -94,6 +96,7 @@ const Installment = () => {
   const PostData = async (e) => {
     e.preventDefault();
     if (validateForm()) {
+      setIsLoading(true);
       for (let i = 0; i < instArr.length; i++) {
         const {
           formno,
@@ -109,7 +112,7 @@ const Installment = () => {
         } = val;
         const instno = instArr[i];
         const { data } = await axios.post(
-          "https://institutionmanagement.netlify.app/installment",
+          "https://institution-management-system.herokuapp.com/installment",
           {
             formno,
             course,
@@ -125,9 +128,11 @@ const Installment = () => {
           }
         );
         if (data.status === false && i === 0) {
+          setIsLoading(false);
           toast.error(data.msg, toastOption);
         }
         if (data.status && i === 0) {
+          setIsLoading(false);
           toast(data.msg, successNotification);
         }
       }
@@ -142,6 +147,11 @@ const Installment = () => {
       <div className="inst-content">
         <div className="sec-title">
           <div className="inst-title">Installment</div>
+          {isLoading && (
+            <>
+              <img src={loader} alt="loader" className="loader" />
+            </>
+          )}
           <div className="sec-serach">
             <label>Form No</label>
             <input type="text" onChange={(e) => setFormNo(e.target.value)} />
