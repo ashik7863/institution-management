@@ -108,19 +108,22 @@ const Installment = () => {
           instfine,
         } = val;
         const instno = instArr[i];
-        const { data } = await axios.post("http://localhost:4000/installment", {
-          formno,
-          course,
-          session,
-          batch,
-          studentname,
-          instno,
-          billno,
-          instdate,
-          instpay,
-          instdue,
-          instfine,
-        });
+        const { data } = await axios.post(
+          "https://institutionmanagement.netlify.app/installment",
+          {
+            formno,
+            course,
+            session,
+            batch,
+            studentname,
+            instno,
+            billno,
+            instdate,
+            instpay,
+            instdue,
+            instfine,
+          }
+        );
         if (data.status === false && i === 0) {
           toast.error(data.msg, toastOption);
         }
@@ -133,9 +136,7 @@ const Installment = () => {
   function changeData(e) {
     setVal({ ...val, [e.target.name]: e.target.value });
   }
-  function handlePrint() {
-    data.print();
-  }
+
   return (
     <div className="inst-head">
       <div className="inst-content">
@@ -251,8 +252,6 @@ const Installment = () => {
               />
             </div>
           </div>
-
-          <button onClick={handlePrint}>Print this out!</button>
 
           <div className="btn-section">
             <button onClick={(e) => PostData(e)}>Save</button>
