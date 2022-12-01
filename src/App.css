@@ -559,18 +559,18 @@ td .status{
   justify-content: space-between;
   flex-wrap: wrap;
 }
-form .fields .input-field{
+form .fields .input-field1{
   display: flex;
   width: calc(100% / 3 - 20px);
   flex-direction: column;
   margin: 6px 0;
 }
-.input-field label{
+.input-field1 label{
   font-size: 14px;
   font-weight: 500;
   color: #2e2e2e;
 }
-.input-field input, select{
+.input-field1 input, select{
   outline: none;
   font-size: 14px;
   font-weight: 400;
@@ -581,15 +581,15 @@ form .fields .input-field{
   height: 42px;
   margin: 8px 0;
 }
-.input-field input :focus,
-.input-field select:focus{
+.input-field1 input :focus,
+.input-field1 select:focus{
   box-shadow: 0 3px 6px rgba(0,0,0,0.13);
 }
-.input-field select,
-.input-field input[type="date"]{
+.input-field1 select,
+.input-field1 input[type="date"]{
   color: #707070;
 }
-.input-field input[type="date"]:valid{
+.input-field1 input[type="date"]:valid{
   color: #333;
 }
 .buttons{
@@ -633,7 +633,7 @@ form .fields .input-field{
   flex-wrap: wrap;
   margin-top: 10px;
 }
-form .field-marks .input-field{
+form .field-marks .input-field1{
   display: flex;
   width: calc(100% / 4 - 20px);
   flex-direction: column;
@@ -703,6 +703,7 @@ form .field-marks .input-field{
   text-align: center;  
 }
 .first-col {
+  text-align: center;
   width: 100px;
   min-width: 100px;
   max-width: 100px;
@@ -712,12 +713,12 @@ form .field-marks .input-field{
 }
 th{
   padding: 20px 15px;
-  text-align: left;
   font-weight: 500;
   font-size: 12px;
   color: rgb(182, 175, 175);
   text-transform: uppercase;
   font-size: 14px;
+  text-align: center;
 }
 .tbl-content td{
   text-align: left;
@@ -900,13 +901,13 @@ section{
   .container form::-webkit-scrollbar{
      display: none;
   }
-  form .fields .input-field{
+  form .fields .input-field1{
       width: calc(100% / 2 - 15px);
   }
 
 }
-/* @media screen and (max-width: 1350px) {
-  .checkbox{
-    border: 1px solid red;
-  }
-} */
+.loader{
+  position: absolute;
+  width: 300px;
+}
+

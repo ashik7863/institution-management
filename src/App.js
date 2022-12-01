@@ -9,7 +9,12 @@ import Installment from "./component/installmentComponent/Installment";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   const [show, setShow] = useState(false);
-  console.log(show);
+  // useEffect(() => {
+  //   if (localStorage.getItem("status") === true) {
+  //     console.log("called");
+  //     setShow(true);
+  //   }
+  // });
   return (
     <>
       <Router>

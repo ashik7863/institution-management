@@ -12,7 +12,7 @@ const AdmissionSec2 = (props) => {
           </div>
           <span class="title">Student Contact</span>
           <div class="fields">
-            <div class="input-field">
+            <div class="input-field1">
               <label>Student Contact No</label>
               <input
                 type="text"
@@ -21,7 +21,7 @@ const AdmissionSec2 = (props) => {
                 onChange={(e) => props.changeData(e)}
               />
             </div>
-            <div class="input-field">
+            <div class="input-field1">
               <label>Guardian Contact No</label>
               <input
                 type="text"
@@ -30,7 +30,7 @@ const AdmissionSec2 = (props) => {
                 onChange={(e) => props.changeData(e)}
               />
             </div>
-            <div class="input-field">
+            <div class="input-field1">
               <label>Student Aadhaar No</label>
               <input
                 type="text"
@@ -39,7 +39,7 @@ const AdmissionSec2 = (props) => {
                 onChange={(e) => props.changeData(e)}
               />
             </div>
-            <div class="input-field">
+            <div class="input-field1">
               <label>Student Whatsapp No</label>
               <input
                 type="text"
@@ -48,7 +48,7 @@ const AdmissionSec2 = (props) => {
                 onChange={(e) => props.changeData(e)}
               />
             </div>
-            <div class="input-field">
+            <div class="input-field1">
               <label>Email ID</label>
               <input
                 type="text"
@@ -57,11 +57,11 @@ const AdmissionSec2 = (props) => {
                 onChange={(e) => props.changeData(e)}
               />
             </div>
-            <div class="input-field"></div>
+            <div class="input-field1"></div>
           </div>
           <span class="title">Marks Details</span>
           <div class="field-marks">
-            <div class="input-field">
+            <div class="input-field1">
               <label>Exam Passed</label>
               <select required>
                 <option disabled selected>
@@ -72,7 +72,7 @@ const AdmissionSec2 = (props) => {
                 <option>Others</option>
               </select>
             </div>
-            <div class="input-field">
+            <div class="input-field1">
               <label>Board / University</label>
               <select required>
                 <option disabled selected>
@@ -83,7 +83,7 @@ const AdmissionSec2 = (props) => {
                 <option>Others</option>
               </select>
             </div>
-            <div class="input-field">
+            <div class="input-field1">
               <label>Year of Passing</label>
               <select required>
                 <option disabled selected>
@@ -95,7 +95,7 @@ const AdmissionSec2 = (props) => {
               </select>
             </div>
 
-            <div class="input-field">
+            <div class="input-field1">
               <label>Marks Obtained</label>
               <input type="text" placeholder="Enter Marks" />
             </div>

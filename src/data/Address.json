@@ -1,0 +1,1415 @@
+[
+  {
+    "SL No.": 1,
+    "VILLAGE": "1 NO BOWNIA",
+    "POSTOFFICE": "BOWNIA",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "NZAT-I",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 2,
+    "VILLAGE": "1 NO CHAITAL",
+    "POSTOFFICE": "AMODPUR",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "CHAITAL",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 3,
+    "VILLAGE": "2 NO BOWNIA",
+    "POSTOFFICE": "BOWNIA",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-1",
+    "PANCHAYET": "NAZAT-1",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 4,
+    "VILLAGE": "2 NO CHAITAL",
+    "POSTOFFICE": "CHAITAL",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "CHAITAL",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 5,
+    "VILLAGE": "2NO BOWNIA",
+    "POSTOFFICE": "BOWNIA",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-1",
+    "PANCHAYET": "NAZAT-1",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 6,
+    "VILLAGE": "3 NO BOWNIA",
+    "POSTOFFICE": "BOWNIA",
+    "POLICESTATION": "SANDESHKHALI",
+    "BLOCK": "SDK-1",
+    "PANCHAYET": "NAZAT-1",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 7,
+    "VILLAGE": "3 NO BOWNIA",
+    "POSTOFFICE": "BOWNIA",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-1",
+    "PANCHAYET": "NAZAT-1",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 8,
+    "VILLAGE": "3NO CHAITAL",
+    "POSTOFFICE": "CHAITAL",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "CHAITAL",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 9,
+    "VILLAGE": "4 NO CHUNCHURA",
+    "POSTOFFICE": "BOYERMARI",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "BOYERMARI-II",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 10,
+    "VILLAGE": "4 NO GORAN BOSE",
+    "POSTOFFICE": "NAFARGANJ",
+    "POLICESTATION": "BASANTI",
+    "BLOCK": "BASANTI",
+    "PANCHAYET": "BHARATGARH",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 11,
+    "VILLAGE": "4NO BOWNIA",
+    "POSTOFFICE": "BOWNIA",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-1",
+    "PANCHAYET": "NAZAT-1",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 12,
+    "VILLAGE": "4NO. CHUNCHURA",
+    "POSTOFFICE": "BOYERMARI",
+    "POLICESTATION": "SANDESHKHALI",
+    "BLOCK": "SDK-II",
+    "PANCHAYET": "BOYERMARI-I",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 13,
+    "VILLAGE": "4NO.CHUNCHURA",
+    "POSTOFFICE": "BOYERMARI",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "BOYERMARI-I",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 14,
+    "VILLAGE": "5 NO BOWNIA",
+    "POSTOFFICE": "BOWNIA",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "NAZAT-I",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 15,
+    "VILLAGE": "6 NO BOYERMARI",
+    "POSTOFFICE": "BOYERMARI",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-1",
+    "PANCHAYET": "BOYERMARI-2",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 16,
+    "VILLAGE": "7 NO BOWNIA",
+    "POSTOFFICE": "BOWNIA",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "NAZAT-I",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 17,
+    "VILLAGE": "7 NO KARAMDINIBATI",
+    "POSTOFFICE": "TITKUMAR",
+    "POLICESTATION": "BASANTI",
+    "BLOCK": "BASANTI",
+    "PANCHAYET": "AMJHARA",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 18,
+    "VILLAGE": "7 NO KUMRAKHALI",
+    "POSTOFFICE": "F.S HAT",
+    "POLICESTATION": "BASANTI",
+    "BLOCK": "BASANTI",
+    "PANCHAYET": "CHARAVIDYA",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 19,
+    "VILLAGE": "9 NO KUMRAKHALI",
+    "POSTOFFICE": "KUMRAKHALI",
+    "POLICESTATION": "BASANTI",
+    "BLOCK": "BASANTI",
+    "PANCHAYET": "CHARAVIDYA",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 20,
+    "VILLAGE": "ABAD MALANCHA",
+    "POSTOFFICE": "MALANCHA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743425
+  },
+  {
+    "SL No.": 21,
+    "VILLAGE": "AGARHATI",
+    "POSTOFFICE": "AGARHATI",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-1",
+    "PANCHAYET": "S AGARHATI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 22,
+    "VILLAGE": "AMODPUR",
+    "POSTOFFICE": "AMODPUR",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "CHAITAL",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 23,
+    "VILLAGE": "ATHARABAKI",
+    "POSTOFFICE": "ATHARABAKI",
+    "POLICESTATION": "JIBANTALA",
+    "BLOCK": "CANNING-II",
+    "PANCHAYET": "ATHAROBANKI",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 24,
+    "VILLAGE": "BACHRA",
+    "POSTOFFICE": "B.MOHANPUR",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "KALIBARI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 25,
+    "VILLAGE": "BAGIRHULA",
+    "POSTOFFICE": "MINAKHAN",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 26,
+    "VILLAGE": "BARGA GOPALPUR",
+    "POSTOFFICE": "NARABUNIA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "DHUTURDAHA",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 27,
+    "VILLAGE": "BAIDYAATI",
+    "POSTOFFICE": "DHUTURDAHA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "DHUTURDAHA",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 28,
+    "VILLAGE": "BALIGOURI",
+    "POSTOFFICE": "MALANCHA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743425
+  },
+  {
+    "SL No.": 29,
+    "VILLAGE": "BALIHATI",
+    "POSTOFFICE": "MALANCHA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743425
+  },
+  {
+    "SL No.": 30,
+    "VILLAGE": "BAMANPUKUR",
+    "POSTOFFICE": "BAMANPUKUR",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "BAMANPUKUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 31,
+    "VILLAGE": "BARA AJGARA",
+    "POSTOFFICE": "F.S HAT",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-1",
+    "PANCHAYET": "S AGARHATI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 32,
+    "VILLAGE": "BARABARI",
+    "POSTOFFICE": "B.MOHANPUR",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MOHANPUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 33,
+    "VILLAGE": "BARADABAD",
+    "POSTOFFICE": "GHOSHPUR",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "BAMANPUKUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 34,
+    "VILLAGE": "BARGAN",
+    "POSTOFFICE": "GOPALPUR",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "DHUTURDAHA",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 35,
+    "VILLAGE": "BAROBARI",
+    "POSTOFFICE": "B.MOHANPUR",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MOHANPUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 36,
+    "VILLAGE": "BASANTI",
+    "POSTOFFICE": "BASANTI",
+    "POLICESTATION": "BASANTI",
+    "BLOCK": "BASANTI",
+    "PANCHAYET": "BASANTI",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 37,
+    "VILLAGE": "BAYARMARI ",
+    "POSTOFFICE": "S. SHIKARIGHERI",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "NAZAT-2",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 38,
+    "VILLAGE": "BERMAJUR",
+    "POSTOFFICE": "BERMAJUR",
+    "POLICESTATION": "SANDESHKHALI",
+    "BLOCK": "SANDESHKHALI",
+    "PANCHAYET": "BERMAJUR-1",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 39,
+    "VILLAGE": "BHOLAKHALI",
+    "POSTOFFICE": "RADHANAGAR",
+    "POLICESTATION": "SANDESHKHALI",
+    "BLOCK": "SANDESHKHALI",
+    "PANCHAYET": "RADHANAGAR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 40,
+    "VILLAGE": "BHUPENDRAPUR",
+    "POSTOFFICE": "BHUPENDRAOUR",
+    "POLICESTATION": "GOSABA",
+    "BLOCK": "GOSABA",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 41,
+    "VILLAGE": "BOWNIA",
+    "POSTOFFICE": "BOWNIA",
+    "POLICESTATION": "SANDESHKHALI",
+    "BLOCK": "SANDESHKHALI",
+    "PANCHAYET": "NAZAT-1",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 42,
+    "VILLAGE": "BOYERMARI",
+    "POSTOFFICE": "BOYERMARI",
+    "POLICESTATION": "NAZAT"
+  },
+  {
+    "SL No.": 43,
+    "VILLAGE": "C. RADHANAGAR",
+    "POSTOFFICE": "NARABUNIA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "DHUTURDAHA",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 44,
+    "VILLAGE": "CHAITAL",
+    "POSTOFFICE": "Chaital",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "CHAITAL",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 45,
+    "VILLAGE": "CHAITAL",
+    "POSTOFFICE": "AMODPUR",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "CHAITAL",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 46,
+    "VILLAGE": "CHAK AHAMMADPUR",
+    "POSTOFFICE": "MALANCHA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "CHAITAL",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743425
+  },
+  {
+    "SL No.": 47,
+    "VILLAGE": "CHAMPAHATI",
+    "POSTOFFICE": "CHAMPAHATI",
+    "POLICESTATION": "BARUIPUR",
+    "BLOCK": "BARUIPUR",
+    "PANCHAYET": "CHAMPAHATI",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 48,
+    "VILLAGE": "CHANDIBARI",
+    "POSTOFFICE": "B.MOHANPUR",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MOHANPUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 49,
+    "VILLAGE": "CHAYANI",
+    "POSTOFFICE": "BAMANPUKUR",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "BAMANPUKUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 50,
+    "VILLAGE": "CHHAYANI",
+    "POSTOFFICE": "BAMANPUKUR",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "BAMANPUKUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 51,
+    "VILLAGE": "CHHIMTA",
+    "POSTOFFICE": "CHHIMTA KACHARI",
+    "POLICESTATION": "HASANABAD",
+    "BLOCK": "HASANABAD",
+    "PANCHAYET": "MURARISHA",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 52,
+    "VILLAGE": "CHHOTO AJGARA",
+    "POSTOFFICE": "AGARHATI",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "S AGARHATI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 53,
+    "VILLAGE": "CHHOTO SEHARA",
+    "POSTOFFICE": "CHHOTO SEHARA",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "CHHOTO SEHARA",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 54,
+    "VILLAGE": "CHHOYANI",
+    "POSTOFFICE": "BAMANPUKUR",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "BAMANPUKUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 55,
+    "VILLAGE": "CHUNCHURA",
+    "POSTOFFICE": "BOYERMARI",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-1",
+    "PANCHAYET": "BOYERMARY-2",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 56,
+    "VILLAGE": "CHUTKIA GAZIPARA",
+    "POSTOFFICE": "NARABUNIA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "DHUTURDAHA",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 57,
+    "VILLAGE": "D. BHANGATUSHKHALI",
+    "POSTOFFICE": "BHANGATUSHKHALI",
+    "POLICESTATION": "SANDESHKHALI",
+    "BLOCK": "SDK-II",
+    "PANCHAYET": "JELIAKHALI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 58,
+    "VILLAGE": "DEBDOLE",
+    "POSTOFFICE": "MALANCHA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743425
+  },
+  {
+    "SL No.": 59,
+    "VILLAGE": "DEBIPUR",
+    "POSTOFFICE": "B.GOBINDAPUR",
+    "POLICESTATION": "BHANGAR",
+    "BLOCK": "BHANGAR I",
+    "PANCHAYET": "BHANGAR I",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 60,
+    "VILLAGE": "DEBITALA",
+    "POSTOFFICE": "NARABUNIA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "DUTURDAHA",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 61,
+    "VILLAGE": "DELUI",
+    "POSTOFFICE": "DELUI",
+    "POLICESTATION": "JIBANTALA",
+    "BLOCK": "CANNING-II",
+    "PANCHAYET": "PARGATHI",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 62,
+    "VILLAGE": "DEULI",
+    "POSTOFFICE": "DEULI",
+    "POLICESTATION": "JIBANTALA",
+    "BLOCK": "CANNING-II",
+    "PANCHAYET": "PARGATHI",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 63,
+    "VILLAGE": "DHAKNAMARI",
+    "POSTOFFICE": "DHEKNAMARI",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-01",
+    "PANCHAYET": "BOYERMARI-1",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 64,
+    "VILLAGE": "DHALTITHA MONDAL PARA",
+    "POSTOFFICE": "BASIRHAT",
+    "POLICESTATION": "BASIRHAT",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 65,
+    "VILLAGE": "DHAMAKHALI",
+    "POSTOFFICE": "RAMPUR",
+    "POLICESTATION": "SANDESHKHALI",
+    "BLOCK": "SANDESHKHALI",
+    "PANCHAYET": "BERMAJUR II",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 66,
+    "VILLAGE": "DHEKNAMARI",
+    "POSTOFFICE": "DHEKNAMARI",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "BOYERMARI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 67,
+    "VILLAGE": "DURGAMANDAP",
+    "POSTOFFICE": "DURGAMANDUP",
+    "POLICESTATION": "SANDESHKHALI",
+    "BLOCK": "SDK-2",
+    "PANCHAYET": "DURGAMANDUP",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 68,
+    "VILLAGE": "FAKIRTAKIA",
+    "POSTOFFICE": "MATHERDIGHI",
+    "POLICESTATION": "JIBANTALA",
+    "BLOCK": "CANNING-II",
+    "PANCHAYET": "MATHERDIGHI",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 69,
+    "VILLAGE": "GABTALA ",
+    "POSTOFFICE": "KHASBALANDA",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "HAROA",
+    "PANCHAYET": "KHASBALANDA",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 70,
+    "VILLAGE": "GANGAPUR",
+    "POSTOFFICE": "BHOJERHAT",
+    "POLICESTATION": "KLC",
+    "BLOCK": "BHANGAR-I",
+    "PANCHAYET": "TARDAHA",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 71,
+    "VILLAGE": "GANTI",
+    "POSTOFFICE": "DEULI",
+    "POLICESTATION": "JIBANTALA",
+    "BLOCK": "CANNING-II",
+    "PANCHAYET": "DEULI-2",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 72,
+    "VILLAGE": "GAR KUATI",
+    "POSTOFFICE": "UCHILDAHA",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "ATPUKUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 73,
+    "VILLAGE": "GARH",
+    "POSTOFFICE": "UCHILDAHA",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 74,
+    "VILLAGE": "GARH KUATI",
+    "POSTOFFICE": "UCHILDAHA",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MOHANPUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 75,
+    "VILLAGE": "GHOLA",
+    "POSTOFFICE": "BHEBIA",
+    "POLICESTATION": "HASANABAD",
+    "BLOCK": "HASANABAD",
+    "PANCHAYET": "MURARISHA",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 76,
+    "VILLAGE": "GOLAGHATA",
+    "POSTOFFICE": "NIMICHI",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "CHAITAL",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 77,
+    "VILLAGE": "HARINHULA",
+    "POSTOFFICE": "B.MOHANPUR",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MOHANPUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 78,
+    "VILLAGE": "HATGACHHI",
+    "POSTOFFICE": "NALKARA",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "HATGACHHI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 79,
+    "VILLAGE": "JELIAKHALI",
+    "POSTOFFICE": "JELIAKHALI",
+    "POLICESTATION": "SANDESHKHALI",
+    "BLOCK": "SDK-II",
+    "PANCHAYET": "JELIAKHALI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 80,
+    "VILLAGE": "JHIKRA",
+    "POSTOFFICE": "CHANDIBARI",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "KUMARJOLE",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 81,
+    "VILLAGE": "JHUPKHALI",
+    "POSTOFFICE": "RAMPUR",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "S.AGARHATI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 82,
+    "VILLAGE": "JOYGRAM",
+    "POSTOFFICE": "JOYGRAM",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 83,
+    "VILLAGE": "JOYKHALI",
+    "POSTOFFICE": "DEULI",
+    "POLICESTATION": "JIBANTALA",
+    "BLOCK": "CANNING-II",
+    "PANCHAYET": "DEULI-2",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 84,
+    "VILLAGE": "JOYPUR",
+    "POSTOFFICE": "JOYPUR",
+    "POLICESTATION": "KASHIPUR",
+    "BLOCK": "BHANGAR II",
+    "PANCHAYET": "BHANGAR I",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 85,
+    "VILLAGE": "KACHURHULA",
+    "POSTOFFICE": "ATPUKUR",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 86,
+    "VILLAGE": "KAHRIAT",
+    "POSTOFFICE": "KHARIAT",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "BOYERMARI-I",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 87,
+    "VILLAGE": "KALIBARI",
+    "POSTOFFICE": "B.MOHANPUR",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MOHANPUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 88,
+    "VILLAGE": "KALIKAPUR",
+    "POSTOFFICE": "B.GOBINDAPUR",
+    "POLICESTATION": "BHANGAR",
+    "BLOCK": "BHANGAR 1",
+    "PANCHAYET": "JAULGACHHI",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 89,
+    "VILLAGE": "KANMARI",
+    "POSTOFFICE": "KANMARI",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "KANMARI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 90,
+    "VILLAGE": "KHARIAT",
+    "POSTOFFICE": "KHARIAT",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "BOYERMARI-I",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 91,
+    "VILLAGE": "KHARIBERIA",
+    "POSTOFFICE": "DHUTURDAHA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "DUTURDAHA",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 92,
+    "VILLAGE": "KHARIHAT",
+    "POSTOFFICE": "KHARIHAT",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "BOYERMARI-I",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 93,
+    "VILLAGE": "KHARITA",
+    "POSTOFFICE": "KHARIAT",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SANDESHKHALI",
+    "PANCHAYET": "BOYERMARI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 94,
+    "VILLAGE": "KHAS SHAKDHA",
+    "POSTOFFICE": "P SHANKARDAHA",
+    "POLICESTATION": "NAZAT"
+  },
+  {
+    "SL No.": 95,
+    "VILLAGE": "KHASSAKDAHA",
+    "POSTOFFICE": "P SANKARDAHA",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "BOYERMARI-II",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 96,
+    "VILLAGE": "KHASSANKDAHA",
+    "POSTOFFICE": "PURBA SANKAR",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "BOYERMARY-I",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 97,
+    "VILLAGE": "KOKILPUR",
+    "POSTOFFICE": "ATPUKUR",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "ATPUKUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 98,
+    "VILLAGE": "KUATY",
+    "POSTOFFICE": "UCHILDAHA",
+    "POLICESTATION": "HAROA",
+    "BLOCK": " MINAKHAN",
+    "PANCHAYET": "ATPUKUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 99,
+    "VILLAGE": "KUMARJOLE",
+    "POSTOFFICE": "KUMARJOLE",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "KUMARJOLE",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 100,
+    "VILLAGE": "KUMRAKHALI",
+    "POSTOFFICE": "KUMRAKHALI",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "BASANTI",
+    "PANCHAYET": "CHARAVIDYA",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 101,
+    "VILLAGE": "KUSHANGRA",
+    "POSTOFFICE": "BAMANPUKUR",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "BAMANPUKUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 102,
+    "VILLAGE": "LAUGACHHI",
+    "POSTOFFICE": "GHOSHPUR",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "HAROA",
+    "PANCHAYET": "KULTI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 103,
+    "VILLAGE": "LOWKHALI",
+    "POSTOFFICE": "AGARHATI",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-1",
+    "PANCHAYET": "S.AGARHATI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 104,
+    "VILLAGE": "MADARI",
+    "POSTOFFICE": "MALANCHA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743425
+  },
+  {
+    "SL No.": 105,
+    "VILLAGE": "MADARI MALANCHA",
+    "POSTOFFICE": "MALANCHA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743425
+  },
+  {
+    "SL No.": 106,
+    "VILLAGE": "MADHANKHALI",
+    "POSTOFFICE": "DEULI",
+    "POLICESTATION": "JIBANTALA",
+    "BLOCK": "CANNING-II",
+    "PANCHAYET": "DEULI-2",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 107,
+    "VILLAGE": "MAJHER PARA",
+    "POSTOFFICE": "UCHILDAHA",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "ATPAKUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 108,
+    "VILLAGE": "MALANCHA",
+    "POSTOFFICE": "MALANCHA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743425
+  },
+  {
+    "SL No.": 109,
+    "VILLAGE": "MALANCHA ABAD",
+    "POSTOFFICE": "MALANCHA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743425
+  },
+  {
+    "SL No.": 110,
+    "VILLAGE": "MALLICKGHERI",
+    "POSTOFFICE": "MALLICKGHERI",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "B. MOHANPUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 111,
+    "VILLAGE": "MATHBARI",
+    "POSTOFFICE": "MALANCHA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743425
+  },
+  {
+    "SL No.": 112,
+    "VILLAGE": "MATHBARI",
+    "POSTOFFICE": "MATHBARI",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "BOYERMARI-I",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 113,
+    "VILLAGE": "MATHBARI ",
+    "POSTOFFICE": "MATHBARI ABAD",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-1",
+    "PANCHAYET": "BOYERMARI-I",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 114,
+    "VILLAGE": "MATHBARI ABAD",
+    "POSTOFFICE": "MATHBARI",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "BOYERMARI-I",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 115,
+    "VILLAGE": "MAULI",
+    "POSTOFFICE": "MALANCHA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743425
+  },
+  {
+    "SL No.": 116,
+    "VILLAGE": "METIAKHALI",
+    "POSTOFFICE": "NAZAT",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-1",
+    "PANCHAYET": "NAZAT-2",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 117,
+    "VILLAGE": "MINAKHAN",
+    "POSTOFFICE": "MINAKHAN",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 118,
+    "VILLAGE": "MOHANPUR",
+    "POSTOFFICE": "B.MOHANPUR",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MOHANPUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 119,
+    "VILLAGE": "MOHANPUR ",
+    "POSTOFFICE": "B.MOHANPUR",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 120,
+    "VILLAGE": "MOULI",
+    "POSTOFFICE": "MALANCHA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743425
+  },
+  {
+    "SL No.": 121,
+    "VILLAGE": "MUCHIKHOLA",
+    "POSTOFFICE": "MALLIKGHARI",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "B. MOHANPUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 122,
+    "VILLAGE": "MUNSHIGHERI",
+    "POSTOFFICE": "GOPALPUR",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "HAROA",
+    "PANCHAYET": "GOPALPUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 123,
+    "VILLAGE": "NALKORA",
+    "POSTOFFICE": "NALKORA",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "NAZAT",
+    "PANCHAYET": "SANDESHKHALI-I",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 124,
+    "VILLAGE": "NARABUNIA",
+    "POSTOFFICE": "KALIKATALA",
+    "POLICESTATION": "JIBANTALA",
+    "BLOCK": "KALIKATALA",
+    "PANCHAYET": "KALIKATALA",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 125,
+    "VILLAGE": "NASIRHATI",
+    "POSTOFFICE": "HAROA",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "HAROA",
+    "PANCHAYET": "KHASBALANDA",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 126,
+    "VILLAGE": "NERULI",
+    "POSTOFFICE": "NIMICHI",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "CHAITAL",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 127,
+    "VILLAGE": "NIMICHI",
+    "POSTOFFICE": "NIMICHI",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "CHAITAL",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 128,
+    "VILLAGE": "NOLKORA",
+    "POSTOFFICE": "NOLKORA",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SANDESHKHALI",
+    "PANCHAYET": "HATGACHHI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 129,
+    "VILLAGE": "P BAHUKHOLA",
+    "POSTOFFICE": "KUMARJOLE",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "KUMARJOLE",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 130,
+    "VILLAGE": "PETUA DHANIHATI",
+    "POSTOFFICE": "MATHBARI",
+    "POLICESTATION": "SANDESHKHALI",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "BOYERMARY-01",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 131,
+    "VILLAGE": "RAJAPUR",
+    "POSTOFFICE": "MURARISAH",
+    "POLICESTATION": "HASANABAD",
+    "BLOCK": "HASANABAD",
+    "PANCHAYET": "MURARISHA",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 132,
+    "VILLAGE": "RAJBARI",
+    "POSTOFFICE": "AGARHATI",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "HATGACHHI",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743442
+  },
+  {
+    "SL No.": 133,
+    "VILLAGE": "RAMNAGAR",
+    "POSTOFFICE": "KR BAZAR",
+    "POLICESTATION": "GOSABA",
+    "BLOCK": "GOSABA",
+    "PANCHAYET": "KACHUKHALI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 134,
+    "VILLAGE": "RAMPUR",
+    "POSTOFFICE": "RAMPUR",
+    "POLICESTATION": "SANDESHKHALI",
+    "BLOCK": "SDK-2",
+    "PANCHAYET": "BERMAJUR-2",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 135,
+    "VILLAGE": "RANIGACHI",
+    "POSTOFFICE": "SANKSAHAR",
+    "POLICESTATION": "BHANGAR",
+    "BLOCK": "BHANGAR",
+    "PANCHAYET": "KALIKAPUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 136,
+    "VILLAGE": "S. GUTRI",
+    "POSTOFFICE": "DEULI",
+    "POLICESTATION": "JIBANTALA",
+    "BLOCK": "CANNING-II",
+    "PANCHAYET": "DEULI-2",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 137,
+    "VILLAGE": "SAMASPUR",
+    "POSTOFFICE": "GHOSHPUR",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "HAROA",
+    "PANCHAYET": "KULTI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 138,
+    "VILLAGE": "SANKARDAHA",
+    "POSTOFFICE": "P SHANKARDAHA",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "BOYERMARI-II",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 139,
+    "VILLAGE": "SARASWATI PARA",
+    "POSTOFFICE": "ATHAROBAKI",
+    "POLICESTATION": "JIBANTALA",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 140,
+    "VILLAGE": "SARBERIA",
+    "POSTOFFICE": "F.S HAT",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "S AGARHATI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 141,
+    "VILLAGE": "SATGHORIA PARA",
+    "POSTOFFICE": "ATHAROBANKI",
+    "POLICESTATION": "JIBANTALA",
+    "BLOCK": "CANNING-II",
+    "PANCHAYET": "ATHAROBANKI",
+    "DISTRICT": "SOUTH 24 P.G.S"
+  },
+  {
+    "SL No.": 142,
+    "VILLAGE": "SHANKARDAHA",
+    "POSTOFFICE": "P SHANKARDAHA",
+    "POLICESTATION": "SANDESHKHALI",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "BAYARMARI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 143,
+    "VILLAGE": "SHASTITALA",
+    "POSTOFFICE": "ATPUKUR",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "ATPUKUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 144,
+    "VILLAGE": "SIMULDAHA",
+    "POSTOFFICE": "MALANCHA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743425
+  },
+  {
+    "SL No.": 145,
+    "VILLAGE": "SOUTH KUMARJOLE",
+    "POSTOFFICE": "SOUTH KUMARJOLE",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "KADIHATI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 146,
+    "VILLAGE": "SRINAGAR",
+    "POSTOFFICE": "MADHYAMGRAM",
+    "POLICESTATION": "BARASAT",
+    "BLOCK": "MADHYAMGRAM",
+    "PANCHAYET": "MADHYAMGRAM",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 147,
+    "VILLAGE": "SUNDARIKHALI",
+    "POSTOFFICE": "AGARHATI",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-I",
+    "PANCHAYET": "AGARHATI",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 148,
+    "VILLAGE": "T. KUSHANGRA",
+    "POSTOFFICE": "BAMANPUKUR",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 149,
+    "VILLAGE": "TANGRAMARI",
+    "POSTOFFICE": "B.MOHANPUR",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MOHANPUR",
+    "DISTRICT": "NORTH 24 P.G.S"
+  },
+  {
+    "SL No.": 150,
+    "VILLAGE": "UCHILDAHA",
+    "POSTOFFICE": "UCHILDAHA",
+    "POLICESTATION": "HAROA",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "ATPAKUR",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743425
+  },
+  {
+    "SL No.": 151,
+    "VILLAGE": "MOULI",
+    "POSTOFFICE": "MALANCHA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "MINAKHAN",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743425
+  },
+  {
+    "SL No.": 152,
+    "VILLAGE": "CHARAVIDYA",
+    "POSTOFFICE": "CHARAVIDYA",
+    "POLICESTATION": "BASANTI",
+    "BLOCK": "BASANTI",
+    "PANCHAYET": "CHARAVIDYA",
+    "DISTRICT": "SOUTH 24 P.G.S",
+    "Pin": 743329
+  },
+  {
+    "SL No.": 153,
+    "VILLAGE": "CHARAVIDYA",
+    "POSTOFFICE": "CHARAVIDYA",
+    "POLICESTATION": "BASANTI",
+    "BLOCK": "BASANTI",
+    "PANCHAYET": "CHARAVIDYA",
+    "DISTRICT": "SOUTH 24 P.G.S",
+    "Pin": 743329
+  },
+  {
+    "SL No.": 154,
+    "VILLAGE": "SIMULATI",
+    "POSTOFFICE": "AGARHATI",
+    "POLICESTATION": "NAZAT",
+    "BLOCK": "SDK-II",
+    "PANCHAYET": "HATGACHI",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743329
+  },
+  {
+    "SL No.": 155,
+    "VILLAGE": "MAGRI",
+    "POSTOFFICE": "NARABUNIA",
+    "POLICESTATION": "MINAKHAN",
+    "BLOCK": "MINAKHAN",
+    "PANCHAYET": "DHUTURDAHA",
+    "DISTRICT": "NORTH 24 P.G.S",
+    "Pin": 743425
+  },
+  {
+    "SL No.": 156,
+    "VILLAGE": "10 NO KUMRAKHALI",
+    "POSTOFFICE": "11 NO KUMRAKHALI",
+    "POLICESTATION": "BASANTI",
+    "BLOCK": "BASANTI",
+    "PANCHAYET": "CHARAVIDYA",
+    "DISTRICT": "SOUTH 24 P.G.S",
+    "Pin": 743329
+  }
+]

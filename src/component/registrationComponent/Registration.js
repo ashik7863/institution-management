@@ -4,7 +4,9 @@ import { ToastContainer, toast } from "react-toastify";
 import axios from "axios";
 import "./RegistrationStyle.css";
 import "react-toastify/dist/ReactToastify.css";
+import loader from "../../assets/loaderLogin.gif";
 const Registration = () => {
+  const [isLoading, setIsLoading] = useState(false);
   const [val, setVal] = useState({
     user: "",
     email: "",
@@ -56,74 +58,86 @@ const Registration = () => {
   const PostData = async (e) => {
     e.preventDefault();
     if (validateForm()) {
+      setIsLoading(true);
       const { user, email, mobile, designation, password, cpassword } = val;
-      const { data } = await axios.post("http://localhost:4000/register", {
-        user,
-        email,
-        mobile,
-        designation,
-        password,
-        cpassword,
-      });
+      const { data } = await axios.post(
+        "https://institution-management-system.herokuapp.com/register",
+        {
+          user,
+          email,
+          mobile,
+          designation,
+          password,
+          cpassword,
+        }
+      );
       if (data.status === false) {
+        setIsLoading(false);
         toast.error(data.msg, toastOption);
       }
       if (data.status) {
         toast(data.msg, successNotification);
+        setIsLoading(false);
       }
     }
   };
 
   return (
-    <div className="form-container">
-      <form method="POST">
-        <div className="brand">
-          <h1>Registration</h1>
-        </div>
-        <input
-          type="text"
-          placeholder="Enter Username"
-          name="user"
-          onChange={(e) => changeData(e)}
-        />
-        <input
-          type="text"
-          placeholder="Enter Email"
-          name="email"
-          onChange={(e) => changeData(e)}
-        />
-        <input
-          type="text"
-          placeholder="Enter Mobile No"
-          name="mobile"
-          onChange={(e) => changeData(e)}
-        />
-        <input
-          type="text"
-          placeholder="Enter Designation"
-          name="designation"
-          onChange={(e) => changeData(e)}
-        />
-        <input
-          type="text"
-          placeholder="Password"
-          name="password"
-          onChange={(e) => changeData(e)}
-        />
-        <input
-          type="text"
-          placeholder="Confirm Password"
-          name="cpassword"
-          onChange={(e) => changeData(e)}
-        />
-        <button onClick={(e) => PostData(e)}>Create User</button>
-        <span>
-          Already have an account ? <Link to="/login">Login</Link>
-        </span>
+    <>
+      <div className="form-container">
+        <form method="POST">
+          <div className="brand">
+            {isLoading && (
+              <>
+                <img src={loader} alt="loader" className="loader" />
+              </>
+            )}
+            <h1>Registration</h1>
+          </div>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            name="user"
+            onChange={(e) => changeData(e)}
+          />
+          <input
+            type="text"
+            placeholder="Enter Email"
+            name="email"
+            onChange={(e) => changeData(e)}
+          />
+          <input
+            type="text"
+            placeholder="Enter Mobile No"
+            name="mobile"
+            onChange={(e) => changeData(e)}
+          />
+          <input
+            type="text"
+            placeholder="Enter Designation"
+            name="designation"
+            onChange={(e) => changeData(e)}
+          />
+          <input
+            type="text"
+            placeholder="Password"
+            name="password"
+            onChange={(e) => changeData(e)}
+          />
+          <input
+            type="text"
+            placeholder="Confirm Password"
+            name="cpassword"
+            onChange={(e) => changeData(e)}
+          />
+          <button onClick={(e) => PostData(e)}>Create User</button>
+          <span>
+            Already have an account ? <Link to="/login">Login</Link>
+          </span>
+        </form>
         <ToastContainer />
-      </form>
-      <ToastContainer />
-    </div>
+      </div>
+    </>
   );
 };
 
