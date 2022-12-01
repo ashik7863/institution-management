@@ -24,6 +24,13 @@ const Login = ({ show, change }) => {
     draggable: true,
     theme: "dark",
   };
+  const successNotification = {
+    position: "top-center",
+    autoClose: 5000,
+    pauseOnHover: true,
+    draggable: true,
+    theme: "dark",
+  };
   function changeData(e) {
     setVal({ ...val, [e.target.name]: e.target.value });
   }
@@ -42,8 +49,6 @@ const Login = ({ show, change }) => {
       if (data.status === false) {
         setIsLoading(false);
         toast.error(data.msg, toastOption);
-        setVal({ ["user"]: "" });
-        setVal({ ["password"]: "" });
       }
       if (data.status === true) {
         setIsLoading(false);
@@ -66,38 +71,37 @@ const Login = ({ show, change }) => {
   }
   return (
     <>
-      {isLoading ? (
-        <>
-          <img src={loader} alt="loader" className="loader" />
-        </>
-      ) : (
-        <div className="form-container">
-          <form method="POST">
-            <div className="brand">
-              <h1>Login</h1>
-            </div>
-            <input
-              type="text"
-              placeholder="Enter Username"
-              name="user"
-              onChange={(e) => changeData(e)}
-              min="3"
-            />
-            <input
-              type="text"
-              placeholder="Password"
-              name="password"
-              onChange={(e) => changeData(e)}
-            />
+      <div className="form-container">
+        <form method="POST">
+          <div className="brand">
+            {isLoading && (
+              <>
+                <img src={loader} alt="loader" className="loader" />
+              </>
+            )}
+            <h1>Login</h1>
+          </div>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            name="user"
+            onChange={(e) => changeData(e)}
+            min="3"
+          />
+          <input
+            type="text"
+            placeholder="Password"
+            name="password"
+            onChange={(e) => changeData(e)}
+          />
 
-            <button onClick={(e) => saveData(e)}>Login</button>
-            <span>
-              Don't have an account ? <Link to="/register">Register</Link>
-            </span>
-          </form>
-          <ToastContainer />
-        </div>
-      )}
+          <button onClick={(e) => saveData(e)}>Login</button>
+          <span>
+            Don't have an account ? <Link to="/register">Register</Link>
+          </span>
+        </form>
+        <ToastContainer />
+      </div>
     </>
   );
 };
