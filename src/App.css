@@ -907,7 +907,7 @@ section{
 
 }
 .loader{
-  margin-left: calc(100%/2.5);
+  position: absolute;
   width: 300px;
 }
 /* @media screen and (max-width: 1350px) {
