@@ -6,7 +6,9 @@ import { ToastContainer, toast } from "react-toastify";
 import AdmissionSec1 from "./admissionContent/AdmissionSec1";
 import AdmissionSec2 from "./admissionContent/AdmissionSec2";
 import AdmissionSec3 from "./admissionContent/AdmissionSec3";
+import loader from "../assets/loaderLogin.gif";
 const Admission = () => {
+  const [isLoading, setIsLoading] = useState(false);
   const [addmissionPage, setAdmisisionPage] = useState(1);
   const [val, setVal] = useState({
     formno: "",
@@ -108,6 +110,7 @@ const Admission = () => {
         stdwhatsapp,
         email,
       } = val;
+      setIsLoading(true);
       const { data } = await axios.post(
         "https://institution-management-system.herokuapp.com/admission",
         {
@@ -136,9 +139,11 @@ const Admission = () => {
         }
       );
       if (data.status === false) {
+        setIsLoading(false);
         toast.error(data.msg, toastOption);
       }
       if (data.status) {
+        setIsLoading(false);
         toast(data.msg, successNotification);
       }
     }
@@ -149,8 +154,13 @@ const Admission = () => {
   return (
     <>
       <div className="main-content">
+        {isLoading && (
+          <>
+            <img src={loader} alt="loader" className="loader" />
+          </>
+        )}
         {addmissionPage === 1 ? (
-          <AdmissionSec1 changeData={changeData} />
+          <AdmissionSec1 changeData={changeData} val={val} setVal={setVal} />
         ) : addmissionPage === 2 ? (
           <AdmissionSec2 changeData={changeData} />
         ) : (
