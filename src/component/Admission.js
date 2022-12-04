@@ -112,7 +112,7 @@ const Admission = () => {
       } = val;
       setIsLoading(true);
       const { data } = await axios.post(
-        "https://institution-management-system.herokuapp.com/admission",
+        "https://backend-server-y3ce.onrender.com/admission",
         {
           admdate,
           formno,
