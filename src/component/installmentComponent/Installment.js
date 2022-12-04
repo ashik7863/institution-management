@@ -27,7 +27,7 @@ const Installment = () => {
   ];
   useEffect(() => {
     fetch(
-      "https://institution-management-system.herokuapp.com/installment"
+      "https://backend-server-y3ce.onrender.com/installment"
     ).then((result) => {
       result.json().then((resp) => {
         setData(resp);
@@ -112,7 +112,7 @@ const Installment = () => {
         } = val;
         const instno = instArr[i];
         const { data } = await axios.post(
-          "https://institution-management-system.herokuapp.com/installment",
+          "https://backend-server-y3ce.onrender.com/installment",
           {
             formno,
             course,
