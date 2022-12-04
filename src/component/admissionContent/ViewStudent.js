@@ -10,7 +10,7 @@ const ViewStudent = () => {
   const [date, setDate] = useState();
   useEffect(() => {
     fetch(
-      "https://backend-server-y3ce.onrender.com/viewstudent"
+      "https://backend-production-fee7.up.railway.app/viewstudent"
     ).then((result) => {
       result.json().then((resp) => {
         setData(resp);
