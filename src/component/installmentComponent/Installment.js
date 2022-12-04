@@ -27,7 +27,7 @@ const Installment = () => {
   ];
   useEffect(() => {
     fetch(
-      "https://backend-server-y3ce.onrender.com/installment"
+      "https://backend-production-fee7.up.railway.app/installment"
     ).then((result) => {
       result.json().then((resp) => {
         setData(resp);
@@ -112,7 +112,7 @@ const Installment = () => {
         } = val;
         const instno = instArr[i];
         const { data } = await axios.post(
-          "https://backend-server-y3ce.onrender.com/installment",
+          "https://backend-production-fee7.up.railway.app/installment",
           {
             formno,
             course,
