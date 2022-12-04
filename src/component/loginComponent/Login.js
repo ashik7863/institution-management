@@ -40,7 +40,7 @@ const Login = ({ show, change }) => {
       const { user, password } = val;
       setIsLoading(true);
       const { data } = await axios.post(
-        "https://backend-server-y3ce.onrender.com/login",
+        "https://backend-production-fee7.up.railway.app/login",
         {
           user,
           password,
