@@ -8,7 +8,7 @@ const ViewStudent = () => {
   //   const [date, setDate] = useState("");
   useEffect(() => {
     fetch(
-      "https://institution-management-system.herokuapp.com/viewinstallment"
+      "https://backend-server-y3ce.onrender.com/viewinstallment"
     ).then((result) => {
       result.json().then((resp) => {
         setData(resp);
