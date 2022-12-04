@@ -112,7 +112,7 @@ const Admission = () => {
       } = val;
       setIsLoading(true);
       const { data } = await axios.post(
-        "https://backend-server-y3ce.onrender.com/admission",
+        "https://backend-production-fee7.up.railway.app/admission",
         {
           admdate,
           formno,
