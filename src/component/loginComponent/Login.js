@@ -40,7 +40,7 @@ const Login = ({ show, change }) => {
       const { user, password } = val;
       setIsLoading(true);
       const { data } = await axios.post(
-        "https://institution-management-system.herokuapp.com/login",
+        "https://backend-server-y3ce.onrender.com/login",
         {
           user,
           password,
