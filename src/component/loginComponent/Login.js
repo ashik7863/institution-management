@@ -40,7 +40,7 @@ const Login = ({ show, change }) => {
       const { user, password } = val;
       setIsLoading(true);
       const { data } = await axios.post(
-        "https://backend-production-fee7.up.railway.app/login",
+        "https://backend-phi-one.vercel.app/login",
         {
           user,
           password,
