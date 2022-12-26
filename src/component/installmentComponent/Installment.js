@@ -27,7 +27,7 @@ const Installment = () => {
   ];
   useEffect(() => {
     fetch(
-      "https://backend-production-fee7.up.railway.app/installment"
+      "https://backend-phi-one.vercel.app/installment"
     ).then((result) => {
       result.json().then((resp) => {
         setData(resp);
@@ -112,7 +112,7 @@ const Installment = () => {
         } = val;
         const instno = instArr[i];
         const { data } = await axios.post(
-          "https://backend-production-fee7.up.railway.app/installment",
+          "https://backend-phi-one.vercel.app/installment",
           {
             formno,
             course,
