@@ -8,7 +8,7 @@ const ViewStudent = () => {
   //   const [date, setDate] = useState("");
   useEffect(() => {
     fetch(
-      "https://backend-production-fee7.up.railway.app/viewinstallment"
+      "https://backend-phi-one.vercel.app/viewinstallment"
     ).then((result) => {
       result.json().then((resp) => {
         setData(resp);
