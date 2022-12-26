@@ -61,7 +61,7 @@ const Registration = () => {
       setIsLoading(true);
       const { user, email, mobile, designation, password, cpassword } = val;
       const { data } = await axios.post(
-        "https://backend-production-fee7.up.railway.app/register",
+        "https://backend-phi-one.vercel.app/register",
         {
           user,
           email,
