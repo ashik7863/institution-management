@@ -61,7 +61,7 @@ const Registration = () => {
       setIsLoading(true);
       const { user, email, mobile, designation, password, cpassword } = val;
       const { data } = await axios.post(
-        "https://institution-management-system.herokuapp.com/register",
+        "https://backend-5wmv.vercel.app/register",
         {
           user,
           email,

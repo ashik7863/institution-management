@@ -49,6 +49,8 @@ const Login = ({ show, change }) => {
       if (data.status === false) {
         setIsLoading(false);
         toast.error(data.msg, toastOption);
+        setVal({ ["user"]: "" });
+        setVal({ ["password"]: "" });
       }
       if (data.status === true) {
         setIsLoading(false);
