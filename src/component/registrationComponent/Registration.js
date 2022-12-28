@@ -60,13 +60,7 @@ const Registration = () => {
     if (validateForm()) {
       setIsLoading(true);
       const { user, email, mobile, designation, password, cpassword } = val;
-      const { data } = await axios.post(
-<<<<<<< HEAD
-        "https://backend-5wmv.vercel.app/register",
-=======
-        "https://backend-phi-one.vercel.app/register",
->>>>>>> d85cc1b44d6ab016a0e0c70b74267f815aee9bb9
-        {
+      const { data } = await axios.post("https://backend-5wmv.vercel.app/register",{
           user,
           email,
           mobile,

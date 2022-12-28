@@ -7,13 +7,7 @@ const ViewStudent = () => {
   const [data, setData] = useState([]);
   //   const [date, setDate] = useState("");
   useEffect(() => {
-    fetch(
-<<<<<<< HEAD
-      "https://backend-5wmv.vercel.app/viewinstallment"
-=======
-      "https://backend-phi-one.vercel.app/viewinstallment"
->>>>>>> d85cc1b44d6ab016a0e0c70b74267f815aee9bb9
-    ).then((result) => {
+    fetch("https://backend-5wmv.vercel.app/viewinstallment").then((result) => {
       result.json().then((resp) => {
         setData(resp);
         setIsLoading(false);
