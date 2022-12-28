@@ -10,7 +10,7 @@ const ViewStudent = () => {
   const [date, setDate] = useState();
   useEffect(() => {
     fetch(
-      "https://institution-management-system.herokuapp.com/viewstudent"
+      "https://backend-5wmv.vercel.app/viewstudent"
     ).then((result) => {
       result.json().then((resp) => {
         setData(resp);

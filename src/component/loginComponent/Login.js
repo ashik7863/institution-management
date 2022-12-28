@@ -6,11 +6,6 @@ import axios from "axios";
 import loader from "../../assets/loaderLogin.gif";
 const Login = ({ show, change }) => {
   const [isLoading, setIsLoading] = useState(false);
-  useEffect(() => {
-    if (show === true) {
-      change(false);
-    }
-  }, []);
 
   const navigate = useNavigate();
   const [val, setVal] = useState({
@@ -40,7 +35,7 @@ const Login = ({ show, change }) => {
       const { user, password } = val;
       setIsLoading(true);
       const { data } = await axios.post(
-        "https://institution-management-system.herokuapp.com/login",
+        "https://backend-5wmv.vercel.app/login",
         {
           user,
           password,
@@ -49,14 +44,12 @@ const Login = ({ show, change }) => {
       if (data.status === false) {
         setIsLoading(false);
         toast.error(data.msg, toastOption);
-        setVal({ ["user"]: "" });
-        setVal({ ["password"]: "" });
       }
       if (data.status === true) {
         setIsLoading(false);
         localStorage.setItem("logged-user", JSON.stringify(user));
-        change(!show);
-        navigate("/dashboard");
+        localStorage.setItem('login',true);
+        navigate('/dashboard');       
       }
     }
   }

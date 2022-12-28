@@ -1,13 +1,18 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link,useNavigate } from "react-router-dom";
 import SidebarItem from "./SidebarItem";
 import items from "../data/sidebar.json";
 const Sidebar = (props) => {
+  const navigate = useNavigate();
   const [data, setData] = useState();
   useEffect(() => {
     const x = localStorage.getItem("logged-user");
     setData(x.replaceAll('"', ""));
   }, []);
+  const logout=()=>{
+    localStorage.removeItem('login');
+    navigate('/login');
+}
   return (
     <div className={props.status ? "sidebar-inner close" : "sidebar-inner"}>
       <div className="logo-details">
@@ -31,9 +36,9 @@ const Sidebar = (props) => {
           <div className="profile_name">{data}</div>
           <div className="job">Developer</div>
         </div>
-        <Link to="/">
-          <i className="bx bx-log-out"></i>
-        </Link>
+
+          <i className="bx bx-log-out" onClick={logout}></i>
+
       </div>
     </div>
   );

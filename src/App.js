@@ -7,8 +7,9 @@ import Header from "./component/Header";
 import Sidebar from "./component/Sidebar";
 import Installment from "./component/installmentComponent/Installment";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Protect from "./Protect";
 function App() {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
   // useEffect(() => {
   //   if (localStorage.getItem("status") === true) {
   //     console.log("called");
@@ -19,16 +20,16 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<Login show={show} change={setShow} />} />
+          <Route path="/" element={<Login/>} />
           <Route
             path="/login"
-            element={<Login show={show} change={setShow} />}
+            element={<Login/>}
           />
-          <Route path="/register" element={<Registration />} />
-          <Route path="*" element={show === true ? <AllComponent /> : null} />
+          <Route path="/register" element={<Protect Component={Registration}/>} />
+          <Route path="*" element={<Protect Component={AllComponent}/>} />
           <Route
             path="/dashboard"
-            element={show === true ? <AllComponent /> : null}
+            element={<Protect Component={AllComponent}/>}
           />
         </Routes>
       </Router>
