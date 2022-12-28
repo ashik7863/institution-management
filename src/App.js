@@ -25,7 +25,7 @@ function App() {
             path="/login"
             element={<Login/>}
           />
-          <Route path="/register" element={<Protect Component={Registration}/>} />
+          <Route path="/register" element={<Registration/>} />
           <Route path="*" element={<Protect Component={AllComponent}/>} />
           <Route
             path="/dashboard"
