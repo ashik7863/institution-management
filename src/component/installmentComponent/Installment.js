@@ -27,7 +27,11 @@ const Installment = () => {
   ];
   useEffect(() => {
     fetch(
+<<<<<<< HEAD
       "https://backend-5wmv.vercel.app/installment"
+=======
+      "https://backend-phi-one.vercel.app/installment"
+>>>>>>> d85cc1b44d6ab016a0e0c70b74267f815aee9bb9
     ).then((result) => {
       result.json().then((resp) => {
         setData(resp);
@@ -112,7 +116,11 @@ const Installment = () => {
         } = val;
         const instno = instArr[i];
         const { data } = await axios.post(
+<<<<<<< HEAD
           "https://institution-management-system.herokuapp.com/installment",
+=======
+          "https://backend-phi-one.vercel.app/installment",
+>>>>>>> d85cc1b44d6ab016a0e0c70b74267f815aee9bb9
           {
             formno,
             course,

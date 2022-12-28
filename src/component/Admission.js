@@ -112,7 +112,11 @@ const Admission = () => {
       } = val;
       setIsLoading(true);
       const { data } = await axios.post(
+<<<<<<< HEAD
         "https://backend-5wmv.vercel.app/admission",
+=======
+        "https://backend-production-fee7.up.railway.app/admission",
+>>>>>>> d85cc1b44d6ab016a0e0c70b74267f815aee9bb9
         {
           admdate,
           formno,
