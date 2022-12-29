@@ -111,7 +111,9 @@ const Admission = () => {
         email,
       } = val;
       setIsLoading(true);
-      const { data } = await axios.post("https://backend-5wmv.vercel.app/admission",{
+      const { data } = await axios.post(
+        "https://backend-5wmv.vercel.app/admission",
+        {
           admdate,
           formno,
           course,

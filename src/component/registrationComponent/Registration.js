@@ -60,7 +60,9 @@ const Registration = () => {
     if (validateForm()) {
       setIsLoading(true);
       const { user, email, mobile, designation, password, cpassword } = val;
-      const { data } = await axios.post("https://backend-5wmv.vercel.app/register",{
+      const { data } = await axios.post(
+        "https://backend-5wmv.vercel.app/register",
+        {
           user,
           email,
           mobile,

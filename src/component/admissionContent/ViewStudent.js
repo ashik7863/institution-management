@@ -9,7 +9,9 @@ const ViewStudent = () => {
   const [data, setData] = useState([]);
   const [date, setDate] = useState();
   useEffect(() => {
-    fetch("https://backend-5wmv.vercel.app/viewstudent").then((result) => {
+    fetch(
+      "https://backend-5wmv.vercel.app/viewstudent"
+    ).then((result) => {
       result.json().then((resp) => {
         setData(resp);
         setIsLoading(false);

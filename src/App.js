@@ -9,13 +9,7 @@ import Installment from "./component/installmentComponent/Installment";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Protect from "./Protect";
 function App() {
-  // const [show, setShow] = useState(false);
-  // useEffect(() => {
-  //   if (localStorage.getItem("status") === true) {
-  //     console.log("called");
-  //     setShow(true);
-  //   }
-  // });
+
   return (
     <>
       <Router>

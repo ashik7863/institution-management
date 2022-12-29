@@ -26,7 +26,9 @@ const Installment = () => {
     "Dec",
   ];
   useEffect(() => {
-    fetch("https://backend-5wmv.vercel.app/installment").then((result) => {
+    fetch(
+      "https://backend-5wmv.vercel.app/installment"
+    ).then((result) => {
       result.json().then((resp) => {
         setData(resp);
         // setIsLoading(false);
@@ -109,7 +111,9 @@ const Installment = () => {
           instfine,
         } = val;
         const instno = instArr[i];
-        const { data } = await axios.post("https://backend-5wmv.vercel.app/installment/installment",{
+        const { data } = await axios.post(
+          "https://institution-management-system.herokuapp.com/installment",
+          {
             formno,
             course,
             session,

@@ -34,7 +34,9 @@ const Login = ({ show, change }) => {
     if (validateForm()) {
       const { user, password } = val;
       setIsLoading(true);
-      const { data } = await axios.post("https://backend-5wmv.vercel.app/login",{
+      const { data } = await axios.post(
+        "https://backend-5wmv.vercel.app/login",
+        {
           user,
           password,
         }
